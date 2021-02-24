@@ -34,7 +34,6 @@ legend {
     margin-top: 1em;
 }
 
-
 input[type="text"],
 #state {
     width: 100%;
@@ -114,16 +113,9 @@ button {
 
 @media (min-width: 768px) {
 
-    .main-title
-    .main-header
-    legend {
-        
-    }
-
     .container,
     .info,
-    .news
-     {
+    .news {
         width: 77%;
         margin: 0 auto;
     }
@@ -145,7 +137,6 @@ button {
     }
 
     input[type="text"],
-    
     #state {
         width:70%;
     }

@@ -30,7 +30,6 @@ body {
 
 legend {
     font-weight: 700;
-    margin-top: 1em;
 }
 
 input[type="text"],
@@ -59,9 +58,11 @@ textarea:focus {
     background-color: white;
   }
 
-fieldset {
-    border: none;
+.contact {
+    border-bottom:2px solid black;
 }
+
+
 
 .banner {
     margin-top: 5%; 
@@ -111,11 +112,14 @@ button {
 
 @media (min-width: 768px) {
 
-    .container,
-    .info,
-    .news {
-        width: 77%;
-        margin: 0 auto;
+    .contact,
+    .field_two {
+        width: 70%;
+        margin: 2em auto;
+    }
+
+    hr{
+        width: 70%;
     }
 
     .container {
@@ -124,10 +128,6 @@ button {
         justify-content: flex-end;     
     }
 
-    hr {
-        width: 77%;
-    }
-        
     .container label {
         padding-top: 0.8em;
         justify-self: flex-start;
@@ -136,13 +136,18 @@ button {
 
     input[type="text"],
     #state {
-        width:70%;
+        width:60%;
     }
 
     #zip { 
         max-width: 25%;
-        margin-right: 16em;
-    }  
+        margin-right: 11em;
+    }
+    
+    .field_two {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 

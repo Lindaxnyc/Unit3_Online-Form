@@ -145,15 +145,25 @@ button {
         width:60%;
     }
 
-    #zip { 
-        max-width: 25%;
-        margin-right: 12em;
+    #zip {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+   /*
+
+    .zip {
+        display: flex;
+        justify-content: left;
+
     }
     
     .field_two {
         width: 70%;
         margin: 0 auto;
     }
+    */
 }
 
 

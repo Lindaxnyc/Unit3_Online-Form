@@ -33,7 +33,10 @@ legend {
 }
 
 input[type="text"],
-#state {
+input[type="tel"],
+input[type="email"],
+#state
+ {
     width: 100%;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -44,6 +47,7 @@ input[type="text"],
 }
 
 #zip {
+    display: block;
     width: 40%;
 }
 
@@ -135,13 +139,15 @@ button {
     }
 
     input[type="text"],
+    input[type="tel"],
+    input[type="email"],
     #state {
         width:60%;
     }
 
     #zip { 
         max-width: 25%;
-        margin-right: 11em;
+        margin-right: 12em;
     }
     
     .field_two {
